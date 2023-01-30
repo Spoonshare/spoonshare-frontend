@@ -1,0 +1,27 @@
+#dependencies
+node_modules
+
+#secrets
+.env
+*.local
+
+#personal ide settings=
+.vscode/settings.json
+api/.vscode/settings.json
+
+#api
+api/log
+api/tmp
+
+#ui
+dist
+dist-ssr
+
+#operating system cruft
+.DS_Store
+Thumbs.db
+.idea/misc.xml
+.idea/modules.xml
+.idea/spoonshare-app.iml
+.idea/vcs.xml
+ui/.vscode/settings.json
